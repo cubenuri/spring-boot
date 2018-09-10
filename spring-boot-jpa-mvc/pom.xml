@@ -48,12 +48,17 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- mariaDB -->	
 		<dependency>
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
 			<version>1.5.7</version>
 		</dependency>
+
+		<dependency>
+		  <groupId>com.fasterxml.jackson.datatype</groupId>
+		  <artifactId>jackson-datatype-hibernate4</artifactId>
+		  <version>2.9.0</version>
+		</dependency>    
 		
 		<!-- spring mvc -->
 		<dependency>
